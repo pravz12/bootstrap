@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <style>
+  .red{
+      color:white;
+      background-color:red;
+  }
+
+  .blue{
+      color:white;
+      background-color:blue;
+    }
+  .green{
+      color:white; 
+      background-color:green;
+  }
+  </style>
+
+  </head>
+  <body>
+
+  <div class ='container'>
+    <div class ="row">
+      <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-xl-4 red">
+      <h1>Hello, world!</h1>
+      </div>
+      
+      <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-3  col-xl-4 blue">
+      <h1>Hello, world!</h1>
+      </div>
+      <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-xl-12 ">
+      <br />
+      <button type ="button" class="btn btn-primary">primary</button>
+      <button type ="button" class="btn btn-secondry">secondry</button>
+      <button type ="button" class="btn btn-success">success</button>
+      <button type ="button" class="btn btn-warning">warning</button>
+      <button type ="button" class="btn btn-danger">danger</button>
+      <button type ="button" class="btn btn-link">link</button>
+
+      <br /><br />
+      <a href ="http://www.google.com" role ="button" class="btn btn-primary"> GOOGLE</a>
+      <br /><br />
+      
+      <button type ="button" class="btn btn-primary-outline">primary</button>
+      <button type ="button" class="btn btn-secondry-outline">secondry</button>
+      <button type ="button" class="btn btn-success-outline">success</button>
+      <button type ="button" class="btn btn-warning-outline">warning</button>
+      <button type ="button" class="btn btn-danger-outline">danger</button>
+      <button type ="button" class="btn btn-link-outline">link</button>
+
+      <br /><br />
+      <button type ="button" class="btn btn-primary btn-lg">large</button>
+      <button type ="button" class="btn btn-secondry btn-sm">small</button>
+
+      <br /> <br />
+      <button type ="button" class="btn btn-primary btn-block btn-lg">block</button>
+
+     <br /> <br />
+     <button type ="button" class="btn btn-primary btn-block btn-sm">BLOCK</button>
+
+     <br /> <br />
+     <button type ="button" class="btn btn-primary active">active</button>
+
+     <br /> <br />
+     <button type ="button" class="btn btn-primary disabled">disable</button>
+
+      <br /><br />
+      <a href ="http://www.google.com" role ="button" class="btn btn-primary disabled"> GOOGLE</a>
+      <br /><br />
+
+      <div class ="btn-group" role ="group">
+      <button type ="button" class="btn btn-primary">primary</button>
+      <button type ="button" class="btn btn-secondry">secondry</button>
+      <button type ="button" class="btn btn-success">success</button>
+      <button type ="button" class="btn btn-warning">warning</button>
+      <button type ="button" class="btn btn-danger">danger</button>
+      <button type ="button" class="btn btn-link">link</button>
+      </div> 
+      <br /><br /> 
+      <div class ="btn-group-vertical" role ="group">
+      <button type ="button" class="btn btn-primary">primary</button>
+      <button type ="button" class="btn btn-secondry">secondry</button>
+      <button type ="button" class="btn btn-success">success</button>
+      <button type ="button" class="btn btn-warning">warning</button>
+      <button type ="button" class="btn btn-danger">danger</button>
+      <button type ="button" class="btn btn-link">link</button>
+      </div>
+      <br /><br />
+      
+      <div class ="btn-group" data-toggle="buttons">
+        <label class ="btn btn-primary active">
+          <input type ="checkbox" checked auto-complete ="off">checkbox 1 selected
+        </label>
+
+        <label class ="btn btn-primary ">
+          <input type ="checkbox" auto-complete ="off">checkbox
+        </label>
+        </div>
+
+      <br /><br />
+      <div class = "btn-group" data-toggle="buttons">
+        <label class = "btn btn-primary active">
+           <input type = "radio" name ="option" id ="option1" auto-complete="off">choose not to say
+        </label>
+        <label class = "btn btn-primary">
+           <input type = "radio" name ="option" id ="option2" auto-complete="off">age below 18
+        </label>
+        <label class = "btn btn-primary">
+           <input type = "radio" name ="option" id ="option3" auto-complete="off"> 18-30
+        </label>
+        <label class = "btn btn-primary">
+           <input type = "radio" name ="option" id ="option4" auto-complete="off">above 30
+        </label>
+      </div>
+
+      <br /><br />
+
+      <div class = "btn-group dropup">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="True" aria-expanded="False">
+        click me!
+      </button>
+      <div class ="dropdown-menu">
+        <a class ="dropdown-item" href="">My profile</a>
+        <a class ="dropdown-item" href="">Settings</a>
+        <a class ="dropdown-item" href="">privacy</a>
+        <a class ="dropdown-item" href="">photos</a>
+        <div class="dropdown-divider"></div>
+        <a class ="dropdown-item" href="">Sign out</a>
+        </div>
+      </div>
+
+      <div class = "btn-group">
+      <button type="button" class="btn btn-primary">click me!</button>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="True" aria-expanded="False">
+        <span class="sr-only">click me!</span>
+      </button>
+      <div class ="dropdown-menu">
+        <a class ="dropdown-item" href="">My profile</a>
+        <a class ="dropdown-item" href="">Settings</a>
+        <a class ="dropdown-item" href="">privacy</a>
+        <a class ="dropdown-item" href="">photos</a>
+        <div class="dropdown-divider"></div>
+        <a class ="dropdown-item" href="">Sign out</a>
+        </div>
+      </div>
+      
+      <br /><br />
+
+      <div class ="input-group">
+        <span class= "input-group-addon" id="addon1">$</span>
+        <input type="text" class= "form-control" placeholder="Enter amount here" aria-describedby="addon1"></input>
+      </div>
+      
+      <br /><br />
+
+      <div class ="input-group input-group-sm">
+        <span class= "input-group-addon" id="addon1">$</span>
+        <input type="text" class= "form-control" placeholder="Enter amount here" aria-describedby="addon1"></input>
+      </div>
+
+      <br /><br />
+
+      <div class ="input-group input-group-lg">
+        <span class= "input-group-addon" id="addon1">$</span>
+        <input type="text" class= "form-control" placeholder="Enter amount here" aria-describedby="addon1"></input>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
